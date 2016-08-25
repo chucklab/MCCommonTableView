@@ -19,6 +19,12 @@ A table view for common use, have fun.
 2. Run `pod install` or `pod update`.
 3. Import \<MCCommonTableView.h\>.
 
+### Carthage:
+
+1. Add `github "imegatron/MCCommonTableView"` to your Cartfile.
+2. Run `carthage update --platform ios` and add the framework to your project.
+3. Import \<MCCommonTableView/MCCommonTableView.h\>.
+
 ## Usage
 
 ```objc
