@@ -39,6 +39,7 @@
 
 - (void)testNormal {
     MCCommonTableView *tableView = [MCCommonTableView tableViewWithFrame:CGRectMake(0, 0, 1, 1)];
+    XCTAssert(tableView);
     tableView.dataMap = @{
                           @"Day One" : @{
                                   @"1. Normal" : ^(){ NSLog(@"Normal, tapped."); },
