@@ -5,6 +5,8 @@ xcode_scheme: MCCommonTableView
 notifications:
     email: false
 script:
+    brew update
+    brew install xctool
     - xctool
       -project MCCommonTableView/MCCommonTableView.xcodeproj
       -scheme MCCommonTableView
