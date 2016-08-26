@@ -4,9 +4,12 @@ xcode_project: MCCommonTableView/MCCommonTableView.xcodeproj
 xcode_scheme: MCCommonTableView
 notifications:
     email: false
+
+before_install:
+    - brew update
+    - brew outdated xctool || brew upgrade xctool
+
 script:
-    brew update
-    brew install xctool
     - xctool
       -project MCCommonTableView/MCCommonTableView.xcodeproj
       -scheme MCCommonTableView
