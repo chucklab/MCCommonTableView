@@ -1,11 +1,11 @@
 # MCCommonTableView
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/imegatron/MCCommonTableView/master/LICENSE)
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/chucklab/MCCommonTableView/master/LICENSE)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Pod Version](https://img.shields.io/cocoapods/v/MCCommonTableView.svg?style=flat)](https://cocoapods.org/pods/MCCommonTableView)
 [![Pod Platform](https://img.shields.io/cocoapods/p/MCCommonTableView.svg?style=flat)](https://cocoapods.org/pods/MCCommonTableView)
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
-[![Build Status](https://img.shields.io/travis/imegatron/MCCommonTableView/master.svg?style=flat)](https://travis-ci.org/imegatron/MCCommonTableView)
-[![Coverage Status](https://codecov.io/github/imegatron/MCCommonTableView/coverage.svg?branch=master)](https://codecov.io/github/imegatron/MCCommonTableView?branch=master)
+[![Build Status](https://img.shields.io/travis/chucklab/MCCommonTableView/master.svg?style=flat)](https://travis-ci.org/chucklab/MCCommonTableView)
+[![Coverage Status](https://codecov.io/github/chucklab/MCCommonTableView/coverage.svg?branch=master)](https://codecov.io/github/chucklab/MCCommonTableView?branch=master)
 [![Reference Status](https://www.versioneye.com/objective-c/MCCommonTableView/reference_badge.svg?style=flat)](https://www.versioneye.com/objective-c/MCCommonTableView/references)
 
 A table view for common use, have fun.
@@ -21,7 +21,7 @@ A table view for common use, have fun.
 
 ### Carthage:
 
-1. Add `github "imegatron/MCCommonTableView"` to your Cartfile.
+1. Add `github "chucklab/MCCommonTableView"` to your Cartfile.
 2. Run `carthage update --platform ios` and add the framework to your project.
 3. Import \<MCCommonTableView/MCCommonTableView.h\>.
 
